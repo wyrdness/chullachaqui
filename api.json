@@ -1,0 +1,340 @@
+{
+  "category": "ENTITY_SPIRIT",
+
+  "meta": {
+    "version": "1.0.0",
+    "schema_version": "1.0.0",
+    "last_updated": "2026-01-14",
+    "repository": "https://github.com/wyrdness/chullachaqui",
+    "maintainers": [
+      {
+        "name": "Wyrdness Team",
+        "github": "wyrdness",
+        "role": "maintainer"
+      }
+    ],
+    "license": {
+      "data": "CC0-1.0",
+      "content": "CC-BY-4.0"
+    }
+  },
+
+  "phenomenon": {
+    "id": "chullachaqui",
+    "name": "Chullachaqui",
+    "aliases": [
+      {
+        "name": "Chulla Chaqui",
+        "language": "Quechua",
+        "region": "Peruvian Amazon"
+      },
+      {
+        "name": "Shapishico",
+        "language": "Indigenous",
+        "region": "Amazon Basin"
+      }
+    ],
+    "category": "ENTITY_SPIRIT",
+    "subcategory": "Forest Guardian",
+    "tags": [
+      "spirit",
+      "shapeshifter",
+      "forest-guardian",
+      "dwarf",
+      "amazon",
+      "peruvian",
+      "indigenous-folklore",
+      "trickster"
+    ],
+    "status": "active",
+    "description": {
+      "summary": "Forest spirit from Peruvian Amazon folklore, appearing as a dwarf (3-4 feet tall) with one deformed foot. Shapeshifts to resemble familiar people to lure victims deep into the forest, where it abandons them to become lost.",
+      "full": "Chullachaqui is a forest spirit from Peruvian Amazon indigenous folklore, particularly among the Shipibo-Conibo and other Amazonian groups. Described as a dwarf standing 3-4 feet tall, the Chullachaqui's defining characteristic is one deformed foot—often described as larger than the other, twisted, or resembling a pig or deer hoof. The spirit shapeshifts to appear as a friend, family member, or familiar person, luring unsuspecting victims deep into the forest. Once the person is hopelessly lost, the Chullachaqui abandons them, often leading them in circles. The spirit serves as a forest protector, punishing those who harm nature or take too much from the forest. Detection is possible by checking the feet, as one is always visibly deformed. Hunters and forest travelers ask permission, leave offerings, and show respect to the forest to avoid encounters. The Chullachaqui is similar to the Brazilian Curupira, which also has backward feet and serves as a forest guardian."
+    },
+    "etymology": {
+      "origin": "From Quechua language: 'chulla' (uneven, odd) + 'chaqui' (foot), literally meaning 'uneven foot' or 'odd foot'.",
+      "meaning": "Uneven foot, odd foot",
+      "first_use": "Pre-colonial indigenous oral traditions"
+    }
+  },
+
+  "classification": {
+    "taxonomy": {
+      "category": "ENTITY_SPIRIT",
+      "type": "Forest Guardian",
+      "subtype": "Shapeshifter/Trickster",
+      "variant": "Peruvian Amazon"
+    },
+    "related_phenomena": [
+      {
+        "id": "curupira",
+        "name": "Curupira",
+        "relationship": "similar",
+        "description": "Brazilian forest guardian with backward feet"
+      },
+      {
+        "id": "leshy",
+        "name": "Leshy",
+        "relationship": "similar",
+        "description": "Slavic forest guardian spirit"
+      },
+      {
+        "id": "puck",
+        "name": "Puck/Puca",
+        "relationship": "similar",
+        "description": "Shapeshifting trickster spirit"
+      }
+    ]
+  },
+
+  "characteristics": {
+    "physical": {
+      "height": {
+        "min": 0.9,
+        "max": 1.2,
+        "unit": "meters",
+        "confidence": "medium"
+      },
+      "coloration": [
+        "varies (appears as familiar people)"
+      ],
+      "features": [
+        {
+          "feature": "Deformed foot",
+          "description": "One foot larger, twisted, or resembling animal hoof (pig or deer)",
+          "frequency": "always"
+        },
+        {
+          "feature": "Dwarf stature",
+          "description": "Small, dwarf-like height of 3-4 feet",
+          "frequency": "always"
+        },
+        {
+          "feature": "Shapeshifting appearance",
+          "description": "Can appear as friends, family members, or familiar people",
+          "frequency": "always"
+        }
+      ],
+      "morphology": "Small humanoid dwarf with one deformed foot. Appearance shifts to resemble familiar people, but deformed foot remains constant identifying feature."
+    },
+    "abilities": [
+      {
+        "ability": "Shapeshifting",
+        "description": "Takes form of friends, family members, or familiar people to lure victims",
+        "frequency": "always",
+        "evidence_level": "folklore"
+      },
+      {
+        "ability": "Disorientation",
+        "description": "Leads people in circles until hopelessly lost in forest",
+        "frequency": "common",
+        "evidence_level": "folklore"
+      },
+      {
+        "ability": "Forest manipulation",
+        "description": "Controls forest paths and confuses navigation",
+        "frequency": "common",
+        "evidence_level": "folklore"
+      }
+    ],
+    "behavior": {
+      "activity_period": "diurnal and nocturnal",
+      "disposition": "protective (of forest), trickster",
+      "social_structure": "solitary",
+      "habitat_preference": [
+        "deep forest",
+        "Amazon rainforest",
+        "remote areas",
+        "protected forest areas"
+      ],
+      "patterns": [
+        "Appears as familiar person",
+        "Lures people deep into forest",
+        "Abandons victims when lost",
+        "Leads in circles",
+        "Protects forest from over-exploitation",
+        "Punishes those who harm nature"
+      ]
+    }
+  },
+
+  "distribution": {
+    "range": {
+      "description": "Peruvian Amazon, particularly among Shipibo-Conibo and other indigenous groups. Similar beliefs found throughout western Amazon basin.",
+      "continents": ["South America"],
+      "countries": ["Peru", "parts of Brazil", "parts of Colombia"],
+      "regions": [
+        "Peruvian Amazon",
+        "Ucayali Region",
+        "Loreto Region",
+        "Western Amazon Basin"
+      ]
+    },
+    "temporal": {
+      "first_recorded": {
+        "date": "Pre-colonial",
+        "circa": true,
+        "source": "Indigenous oral traditions, particularly Shipibo-Conibo"
+      },
+      "peak_activity_periods": [
+        {
+          "period": "Pre-colonial to present",
+          "description": "Continuous tradition in Peruvian Amazon indigenous folklore"
+        }
+      ],
+      "seasonal_patterns": "Year-round, no specific seasonal variation"
+    }
+  },
+
+  "history": {
+    "origins": {
+      "cultural_roots": "Chullachaqui is rooted in Peruvian Amazon indigenous traditions, particularly among the Shipibo-Conibo people. The spirit represents forest protection and the dangers of disrespecting nature. It serves as both a cautionary tale and an enforcement mechanism for sustainable forest use.",
+      "earliest_accounts": "Pre-colonial indigenous oral traditions, passed through generations among Amazon indigenous groups.",
+      "folklore_connections": "Part of broader Amazon forest guardian mythology. Similar to Brazilian Curupira (backward feet, forest protection). Related to worldwide forest spirit and trickster traditions."
+    },
+    "timeline": [
+      {
+        "date": "Pre-colonial",
+        "event": "Indigenous oral traditions established",
+        "significance": "Central to Shipibo-Conibo and other Amazon groups' forest management",
+        "source": "Oral tradition"
+      },
+      {
+        "date": "1900s",
+        "event": "Western anthropological documentation",
+        "significance": "Researchers document Chullachaqui traditions",
+        "source": "Anthropological studies"
+      },
+      {
+        "date": "Present",
+        "event": "Living tradition",
+        "significance": "Remains active in indigenous communities and cultural education",
+        "source": "Contemporary indigenous communities"
+      }
+    ],
+    "modern_era": "Chullachaqui remains an active part of Peruvian Amazon indigenous folklore and cultural identity. Used to teach forest respect, sustainable hunting practices, and safety. The legend continues to be passed down and adapted in modern indigenous communities."
+  },
+
+  "sightings": {
+    "statistics": {
+      "total_documented": 0,
+      "verified": 0,
+      "disputed": 0,
+      "debunked": 0,
+      "date_range": {
+        "earliest": "Pre-colonial",
+        "latest": "Present"
+      }
+    },
+    "notable": [],
+    "database_path": null
+  },
+
+  "evidence": {
+    "physical": [],
+    "photographic": [],
+    "video": [],
+    "audio": [],
+    "trace": []
+  },
+
+  "theories": {
+    "folkloric": [
+      {
+        "name": "Forest conservation mechanism",
+        "description": "Legend serves to enforce sustainable forest use and prevent over-hunting or over-harvesting",
+        "proponents": ["Anthropologists studying indigenous resource management"],
+        "evidence_cited": ["Emphasis on asking permission and leaving offerings", "Punishment for harming nature", "Traditional ecological knowledge preservation"]
+      },
+      {
+        "name": "Safety warning system",
+        "description": "Story warns about dangers of getting lost in deep forest and following strangers",
+        "proponents": ["Researchers of indigenous education methods"],
+        "evidence_cited": ["Focus on disorientation", "Recognition by checking feet", "Cautionary tale structure"]
+      }
+    ],
+    "psychological": [
+      {
+        "name": "Pareidolia and forest disorientation",
+        "description": "Experiences explained by seeing familiar faces in forest (pareidolia) combined with genuine disorientation",
+        "proponents": ["Psychological researchers"],
+        "evidence_cited": ["Common experience of disorientation in unfamiliar forest", "Tendency to see familiar patterns"]
+      }
+    ]
+  },
+
+  "cultural": {
+    "folklore": {
+      "traditions": [
+        "Shipibo-Conibo oral traditions",
+        "Peruvian Amazon indigenous folklore",
+        "Hunter and gatherer teaching stories"
+      ],
+      "stories": [
+        "Tales of hunters lured and lost",
+        "Stories of successful recognition and escape",
+        "Accounts of forest protection rituals"
+      ],
+      "beliefs": "Widely believed among indigenous communities as real forest protector. Used to enforce sustainable practices and teach forest safety."
+    },
+    "indigenous": {
+      "cultures": [
+        "Shipibo-Conibo",
+        "Cocama",
+        "Yagua",
+        "Other Peruvian Amazon indigenous groups"
+      ],
+      "significance": "Central to indigenous forest management and traditional ecological knowledge. Represents respect for nature and consequences of exploitation. Important teaching tool for forest safety and sustainable use.",
+      "sensitivity_note": "Chullachaqui is part of living indigenous Peruvian Amazon traditions and traditional ecological knowledge systems. Approach with respect for indigenous wisdom and cultural practices.",
+      "respect_guidelines": "Consult with indigenous communities before investigating in their territories. Recognize this as practical traditional knowledge, not mere superstition. Respect indigenous protocols for forest entry (asking permission, leaving offerings)."
+    },
+    "popular_culture": {
+      "literature": [
+        "Peruvian folklore collections",
+        "Anthropological studies of Shipibo-Conibo culture",
+        "Amazon indigenous oral tradition documentation"
+      ],
+      "film_tv": [
+        "Peruvian cultural documentaries",
+        "Educational programs on indigenous traditions"
+      ],
+      "other": [
+        "Ecotourism cultural education",
+        "Indigenous cultural preservation programs",
+        "Environmental education incorporating traditional knowledge"
+      ]
+    }
+  },
+
+  "research": {
+    "researchers": [
+      {
+        "name": "Various anthropologists",
+        "affiliation": "Researchers of Peruvian Amazon cultures",
+        "contribution": "Documentation of Shipibo-Conibo and other indigenous traditions",
+        "period": "1900s-present"
+      }
+    ],
+    "organizations": [],
+    "ongoing_studies": "Documentation of traditional ecological knowledge, including forest guardian beliefs. Studies of indigenous forest management practices and their effectiveness."
+  },
+
+  "sources": [
+    {
+      "id": "peruvian-folklore",
+      "type": "book",
+      "title": "Peruvian Amazon Folklore Collections",
+      "authors": ["Various"],
+      "publication": "Various regional and academic publishers",
+      "date": "Various"
+    },
+    {
+      "id": "shipibo-studies",
+      "type": "article",
+      "title": "Anthropological studies of Shipibo-Conibo traditions",
+      "authors": ["Various anthropologists"],
+      "publication": "Academic journals",
+      "date": "Various"
+    }
+  ]
+}
