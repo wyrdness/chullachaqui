@@ -1,8 +1,8 @@
 {
   "meta": {
-    "version": "1.0.0",
+    "version": "1.1.0",
     "schema_version": "1.0.0",
-    "last_updated": "2026-02-13",
+    "last_updated": "2026-05-07",
     "repository": "https://github.com/wyrdness/chullachaqui",
     "maintainers": [
       {
@@ -16,111 +16,281 @@
       "content": "CC-BY-4.0"
     }
   },
+
   "phenomenon": {
     "id": "chullachaqui",
     "name": "Chullachaqui",
-    "aliases": [],
+    "aliases": [
+      { "name": "Chullachaki", "language": "Quechua", "meaning": "one foot / unequal foot" },
+      { "name": "Curupira", "region": "Brazil", "meaning": "Closely related Tupi-Guarani forest spirit, sometimes equated with the Chullachaqui" },
+      { "name": "Shapingo", "region": "Peruvian Amazon (Loreto)", "meaning": "Local variant name in mestizo folklore" }
+    ],
     "category": "ENTITY_SPIRIT",
-    "subcategory": "Shapeshifter/Trickster",
+    "subcategory": "Forest spirit / shapeshifter",
     "tags": [
-      "folklore",
-      "mythology"
+      "amazon",
+      "peru",
+      "brazil",
+      "quechua-folklore",
+      "indigenous",
+      "shapeshifter",
+      "trickster",
+      "forest-guardian"
     ],
     "status": "documented",
     "description": {
-      "summary": "Chullachaqui is a forest spirit from Peruvian Amazon indigenous folklore, particularly among the Shipibo-Conibo and other Amazonian groups.",
-      "full": "Chullachaqui is a forest spirit from Peruvian Amazon indigenous folklore, particularly among the Shipibo-Conibo and other Amazonian groups. Described as a dwarf standing 3-4 feet tall, the Chullachaqui's defining characteristic is one deformed foot—often described as larger than the other, twisted, or resembling a pig or deer hoof. The spirit shapeshifts to appear as a friend, family member, or familiar person, luring unsuspecting victims deep into the forest. Once the person is hopelessly lost, the Chullachaqui abandons them, often leading them in circles. The spirit serves as a forest protector, punishing those who harm nature or take too much from the forest. Detection is possible by checking the feet, as one is always visibly deformed. Hunters and forest travelers ask permission, leave offerings, and show respect to the forest to avoid encounters."
+      "summary": "The Chullachaqui (Quechua chulla 'odd / unequal' + chaki 'foot') is a forest spirit of Peruvian and Brazilian Amazonia, depicted as a small humanoid with one mismatched foot — typically one human foot and one animal hoof — who shapeshifts into a familiar person to lead unwary travellers astray.",
+      "full": "The Chullachaqui (also spelled Chullachaki, Shapingo, or in Brazilian Portuguese Curupira) is one of the most widespread forest spirits of the Western Amazon basin, attested in Quechua, Cocama-Cocamilla, Shipibo-Conibo, Yagua, and mestizo riverine traditions of Peru, eastern Ecuador, and adjoining Brazilian Amazonia. The figure is consistently described as a small (roughly one-metre) male humanoid with one foot conspicuously different from the other — usually one human foot and one animal foot (a deer, peccary, jaguar, tapir, or rooster), in some versions reversed or twisted. The Chullachaqui's central narrative function is shapeshifting: it appears in the form of a relative, friend, or trusted local in order to lure a victim deep into the forest, then reveals its true nature and leaves the person hopelessly disoriented, sometimes for days. The mismatched foot is the only sure way to detect the deception, since the spirit cannot disguise its footprints. Beyond pranks, the Chullachaqui is widely understood as a guardian (dueño) of the forest, its plants, and its game animals; respectful behaviour, ritual offerings (typically of mapacho tobacco) and an apology before hunting are traditional means of avoiding its anger. Modern Amazonian shamanism, particularly the ayahuasca traditions of Loreto and Ucayali, integrates the Chullachaqui into its cosmology as a powerful but dangerous spirit teacher; eco-tourism and contemporary literature have also adopted it as a symbol of Amazonian conservation."
     },
     "etymology": {
-      "origin": "Unknown",
-      "meaning": "To be documented",
-      "first_use": "Unknown"
+      "origin": "Quechua: chulla (chh'ulla) 'odd, unequal, mismatched' + chaki 'foot'.",
+      "meaning": "'One foot' or 'mismatched foot', referring to its diagnostic feature.",
+      "first_use": "Quechua oral tradition predates documented written usage; recorded in Spanish-language Amazonian ethnographic and folkloric collections from the 19th and 20th centuries onward."
     }
   },
+
   "classification": {
     "taxonomy": {
       "category": "ENTITY_SPIRIT",
-      "type": "Shapeshifter/Trickster",
-      "subtype": "Unknown",
-      "variant": "Unknown"
+      "type": "Forest spirit",
+      "subtype": "Shapeshifting trickster / forest guardian",
+      "variant": "Western Amazonian (Quechua / Cocama / Shipibo / mestizo)"
     },
-    "related_phenomena": []
+    "related_phenomena": [
+      { "id": "curupira", "name": "Curupira", "relationship": "counterpart", "description": "Brazilian (Tupi-Guarani) forest spirit with backward-pointing feet; closely cognate with the Chullachaqui" },
+      { "id": "duende", "name": "Duende", "relationship": "similar", "description": "Spanish-American small forest/household spirit; shares trickster forest-guardian role" },
+      { "id": "patasola", "name": "Patasola", "relationship": "similar", "description": "Colombian one-legged forest spirit who lures men deep into the forest" },
+      { "id": "tunda", "name": "La Tunda", "relationship": "similar", "description": "Afro-Colombian forest spirit who shape-shifts into loved ones to lure victims" },
+      { "id": "el-sisimite", "name": "El Sisimite", "relationship": "similar", "description": "Central American forest spirit / hairy hominid in shared 'forest abductor' tradition" },
+      { "id": "yacuruna", "name": "Yacuruna", "relationship": "related", "description": "Aquatic counterpart in Amazonian cosmology; underwater spirits whose terrestrial complement includes the Chullachaqui" }
+    ]
   },
+
   "characteristics": {
     "physical": {
-      "features": [],
-      "morphology": "See README.md for detailed physical description"
+      "height": { "min": 0.8, "max": 1.3, "unit": "meters", "confidence": "medium" },
+      "coloration": ["dark brown skin", "weather-beaten", "earth-toned ragged clothing"],
+      "features": [
+        { "feature": "Mismatched feet", "description": "One human foot and one animal foot (deer, peccary, jaguar, tapir, or rooster) — diagnostic feature visible in tracks", "frequency": "always" },
+        { "feature": "Small stature", "description": "Approximately 1 metre tall, dwarf-like", "frequency": "always" },
+        { "feature": "Wide-brimmed straw hat", "description": "Often wears a large straw hat that conceals its face", "frequency": "common" },
+        { "feature": "Wrinkled face / large nose / pointed ears", "description": "When seen unmasked, has an elderly face with red eyes", "frequency": "common" },
+        { "feature": "Tattered clothing", "description": "Wears ragged, dirty clothes, sometimes the remains of indigenous or mestizo dress", "frequency": "common" },
+        { "feature": "Stooped posture and uneven gait", "description": "Walks hunched over with a noticeably limping step", "frequency": "common" }
+      ],
+      "morphology": "Humanoid, dwarf-stature, with one diagnostic non-human foot; otherwise resembles a poorly dressed elderly indigenous or mestizo man."
     },
-    "abilities": [],
+    "abilities": [
+      { "ability": "Shapeshifting", "description": "Takes the form of a known relative, friend, or familiar villager to mislead the victim", "frequency": "always", "evidence_level": "folklore" },
+      { "ability": "Voice mimicry", "description": "Imitates the voice of loved ones to call victims deeper into the forest", "frequency": "common", "evidence_level": "folklore" },
+      { "ability": "Forest disorientation", "description": "Causes travellers to lose their way, walk in circles, and fail to find familiar landmarks", "frequency": "always", "evidence_level": "folklore" },
+      { "ability": "Animal control", "description": "Said to govern movements of game animals; angering it makes hunts unsuccessful", "frequency": "common", "evidence_level": "folklore" },
+      { "ability": "Wager combat", "description": "In some versions, challenges victims to a fight or wager for hidden treasures", "frequency": "occasional", "evidence_level": "folklore" }
+    ],
     "behavior": {
-      "activity_period": "unknown",
-      "disposition": "unknown",
-      "habitat_preference": []
+      "activity_period": "variable",
+      "disposition": "variable",
+      "social_structure": "solitary",
+      "habitat_preference": ["Lowland tropical rainforest", "Riverine forest", "Sacred or rarely visited groves", "Ceiba and lupuna trees (especially Chullachaqui caspi, Brysonima crassifolia, identified locally as its tree)"],
+      "diet": "Said to feed on game and forest fruits as a forest dweller; occasionally tobacco offerings",
+      "patterns": [
+        "Approaches solitary travellers, often hunters and woodcutters",
+        "Manifests in forms most likely to be trusted by the specific victim",
+        "Most actively associated with hunters who have broken taboos (over-hunting, taking pregnant females, leaving carcasses to spoil)",
+        "Encounters often occur in the deep forest away from established paths"
+      ]
     }
   },
+
   "distribution": {
     "range": {
-      "description": "Unknown",
-      "continents": [],
-      "countries": [],
-      "regions": []
+      "description": "Western Amazon basin: lowland Peru (especially Loreto, Ucayali, San Martín, and Madre de Dios), eastern Ecuador (Pastaza, Napo), western Brazil (Acre, Amazonas), and the headwaters region of Colombia and Bolivia.",
+      "continents": ["South America"],
+      "countries": ["Peru", "Brazil", "Ecuador", "Colombia", "Bolivia"],
+      "regions": [
+        "Loreto (Peruvian Amazon)",
+        "Ucayali",
+        "San Martín",
+        "Madre de Dios",
+        "Pastaza and Napo (Ecuadorian Amazon)",
+        "Acre and western Amazonas (Brazil)",
+        "Putumayo (Colombia / Peru border)"
+      ]
     },
-    "hotspots": [],
+    "hotspots": [
+      {
+        "name": "Iquitos and surrounding rainforest",
+        "location": {
+          "description": "Capital of the Peruvian department of Loreto; centre of mestizo and indigenous Amazonian folklore",
+          "country": "Peru",
+          "region": "Loreto",
+          "coordinates": { "latitude": -3.7491, "longitude": -73.2538 }
+        },
+        "peak_period": "20th–21st century",
+        "notes": "Chullachaqui is a defining figure of riverine and rainforest folklore around Iquitos and is invoked in shamanic and ecotourism contexts."
+      },
+      {
+        "name": "Pucallpa / Ucayali River",
+        "location": {
+          "description": "Ucayali river port; centre of Shipibo-Conibo culture",
+          "country": "Peru",
+          "region": "Ucayali",
+          "coordinates": { "latitude": -8.3793, "longitude": -74.5539 }
+        },
+        "peak_period": "20th–21st century",
+        "notes": "Chullachaqui (Shipibo: a related figure) features in Shipibo-Conibo oral tradition and ayahuasca cosmology."
+      }
+    ],
     "temporal": {
       "first_recorded": {
-        "date": "Unknown",
+        "date": "Pre-contact",
         "circa": true,
-        "source": "Traditional folklore"
-      }
+        "source": "Quechua and adjoining Amazonian oral traditions; first written attestations in Spanish-language ethnographic literature of the 19th–20th centuries"
+      },
+      "peak_activity_periods": [
+        { "period": "Mid-20th century", "description": "Documentation by Peruvian folklorists and indigenous-language linguists" },
+        { "period": "1990s–present", "description": "Renewed prominence through Amazonian ecotourism, ayahuasca tourism, and conservation discourse" }
+      ],
+      "seasonal_patterns": "Most strongly associated with the dry season, when hunters and woodcutters travel further into the forest and encounters are most reported."
     }
   },
+
   "history": {
     "origins": {
-      "cultural_roots": "Unknown",
-      "earliest_accounts": "See README.md for historical details",
-      "folklore_connections": "Unknown"
+      "cultural_roots": "Pre-Columbian Quechua-speaking Andean and Amazonian populations almost certainly maintained 'forest owner' (dueño del monte) traditions of which the Chullachaqui is a regional expression. Cognate figures in the Tupi-Guarani Curupira and in Andean apus and aukis suggest a deep South American substrate of forest-guardian beings.",
+      "earliest_accounts": "Earliest written documentation occurs in 19th- and 20th-century Spanish-language ethnographies and folkloric collections of the Peruvian and Brazilian Amazon; the figure is treated as already long-established in oral tradition.",
+      "folklore_connections": "Closely related to the Brazilian Curupira (with reversed feet), Colombian Patasola (one-legged forest woman), and Central American sisimites; part of a continental class of 'forest-guardian / disorientation spirit' figures."
     },
-    "timeline": []
+    "timeline": [
+      { "date": "Pre-Columbian", "event": "Quechua and Amazonian oral traditions of forest-owning spirits include the chulla-chaki figure", "significance": "Foundational layer of the tradition", "source": "Quechua and Amazonian oral tradition" },
+      { "date": "16th century", "event": "Spanish chroniclers in the Andes and Amazon record duendes and forest-spirit traditions among indigenous peoples", "significance": "Provides earliest colonial-period framing of Amazonian forest-spirit beliefs (general; the Chullachaqui by name is later)", "source": "Colonial-era chronicles of Peru" },
+      { "date": "20th century", "event": "Peruvian folklorists (e.g. Mario Florián, Arturo Jiménez Borja) and indigenous-language scholars publish accounts of Chullachaqui in collections of Amazonian myth and legend", "significance": "Anchors the figure in academic folklore studies", "source": "Peruvian folkloric collections" },
+      { "date": "1980s-2000s", "event": "Chullachaqui becomes a routine subject in Amazonian shamanic and ayahuasca-tourism literature, including works by Luis Eduardo Luna and Steve Beyer", "significance": "Brings the figure into wider international awareness", "source": "Luna, L. E. & Amaringo, P. (1991), Ayahuasca Visions; Beyer, S. (2009), Singing to the Plants" }
+    ],
+    "modern_era": "The Chullachaqui retains a vivid presence in contemporary Amazonian life: it appears in school curricula in Peruvian Amazonian regions, in mestizo and indigenous storytelling, in conservation campaigns, in mural and street art in Iquitos and Pucallpa, and in films, novels, and graphic works. Within Amazonian shamanism, the term Chullachaqui is also used for an apprentice's spirit-teacher or for a phantasmal double encountered in plant-medicine work."
   },
+
   "sightings": {
     "statistics": {
       "total_documented": 0,
       "verified": 0,
       "disputed": 0,
-      "debunked": 0
+      "debunked": 0,
+      "date_range": { "earliest": "Oral tradition", "latest": "Contemporary" }
     },
     "notable": [],
     "database_path": "./sightings/"
   },
+
   "evidence": {
     "physical": [],
     "photographic": [],
     "video": [],
     "audio": [],
-    "trace": []
+    "trace": [],
+    "documentary": [
+      {
+        "id": "chullachaqui-evidence-amaringo",
+        "type": "ayahuasca vision art",
+        "name": "Pablo Amaringo's Ayahuasca Visions (1991)",
+        "description": "Numerous paintings by Peruvian shaman-artist Pablo Amaringo, published with anthropologist Luis Eduardo Luna, depict the Chullachaqui as encountered in ayahuasca visions. The works are widely cited as a primary source for modern Amazonian iconography of the spirit.",
+        "status": "verified",
+        "analysis": "While not 'evidence' of the spirit's reality, the corpus is a documentary record of how the Chullachaqui is visualised in contemporary Amazonian shamanism.",
+        "source": "Luna, L. E. & Amaringo, P. (1991), Ayahuasca Visions: The Religious Iconography of a Peruvian Shaman"
+      }
+    ]
   },
+
   "theories": {
-    "paranormal": [],
+    "paranormal": [
+      {
+        "name": "Forest-owner (dueño) cosmology",
+        "description": "Indigenous Amazonian cosmologies hold that each tract of forest, river, or species has a non-human owner that must be respected. The Chullachaqui is the western Amazonian expression of this principle in human form.",
+        "proponents": ["Eduardo Viveiros de Castro (Amerindian perspectivism)", "Luis Eduardo Luna", "Indigenous knowledge holders of the Western Amazon"],
+        "evidence_cited": ["Continuity of dueño beliefs across South American indigenous societies", "Ritual practice of asking permission and offering tobacco before hunting"]
+      }
+    ],
     "scientific": [],
-    "skeptical": []
+    "skeptical": [
+      {
+        "name": "Cultural framework for forest disorientation",
+        "description": "Sceptics argue the Chullachaqui narrative is an explanatory device for the genuine and well-documented psychological phenomenon of becoming lost in dense rainforest, where direction-finding is difficult and panic distorts memory.",
+        "proponents": ["Cognitive anthropologists"],
+        "evidence_cited": ["Psychological literature on getting lost (e.g., Hill, K. 1998)", "Cross-cultural pattern of 'forest abduction' explanatory tales"]
+      },
+      {
+        "name": "Educational and ecological function",
+        "description": "Folklorists argue the Chullachaqui story functions as a culturally embedded conservation ethic, encoding norms about not over-hunting, not wasting carcasses, and respecting forest taboos.",
+        "proponents": ["Latin American folklorists"],
+        "evidence_cited": ["Ethnographic evidence that hunters who break specific taboos are said to be especially vulnerable", "Use of the Chullachaqui in modern Amazonian environmental education"]
+      }
+    ]
   },
+
   "cultural": {
     "folklore": {
-      "traditions": [],
-      "stories": [],
-      "beliefs": "See README.md for cultural context"
+      "traditions": [
+        "Quechua oral tradition of the Andean foothills and Western Amazon",
+        "Cocama-Cocamilla, Shipibo-Conibo, Yagua, Kichwa, and Asháninka oral traditions",
+        "Mestizo riverine folklore of the Peruvian Amazon",
+        "Brazilian Caboclo folklore overlapping with Curupira"
+      ],
+      "stories": [
+        "The hunter who follows his 'cousin' into the forest and is lost for days",
+        "The woodcutter who recognises the Chullachaqui by its mismatched footprint and escapes",
+        "The wager-and-fight motif in which the Chullachaqui offers hidden treasure"
+      ],
+      "beliefs": "The Chullachaqui is a real being that should be neither sought nor mocked. Hunters and travellers offer mapacho tobacco and ask permission before entering deep forest, and avoid speaking its name unnecessarily."
+    },
+    "indigenous": {
+      "cultures": ["Quechua (Lamista, Inga, Kichwa)", "Cocama-Cocamilla", "Shipibo-Conibo", "Yagua", "Asháninka", "Bora", "Achuar"],
+      "significance": "Integrates ecological, spiritual, and ethical knowledge: the Chullachaqui enforces respectful conduct in the forest, polices over-hunting, and represents the boundary between human and non-human worlds.",
+      "sensitivity_note": "The Chullachaqui is a living tradition for many indigenous and mestizo Amazonian communities; popular accounts should not flatten it into a 'cute' or generic forest spirit. Distinct local versions exist in different languages.",
+      "respect_guidelines": "Cite indigenous interlocutors and local Spanish- or Portuguese-language sources directly. Avoid commercialising or trivialising the figure in connection with ayahuasca tourism."
     },
     "popular_culture": {
-      "literature": [],
-      "film_tv": [],
+      "literature": [
+        "Luis Eduardo Luna and Pablo Amaringo, Ayahuasca Visions (1991)",
+        "Stephan V. Beyer, Singing to the Plants (2009)",
+        "Ciro Alegría, La serpiente de oro (1935) — Amazonian folk-spirit context",
+        "Mario Florián and Arturo Jiménez Borja, Peruvian folklore collections (mid-20th century)",
+        "Anaconda y Otras Leyendas Amazónicas (regional anthologies)"
+      ],
+      "film_tv": [
+        "Numerous Peruvian short films and television features on Amazonian legends",
+        "Documentaries on Amazonian shamanism (e.g. Other Worlds, 2004; Vine of the Soul, 2010)"
+      ],
       "games": [],
-      "other": []
+      "music": [
+        "Peruvian Amazonian cumbia and chicha songs sometimes name the Chullachaqui as a forest figure"
+      ],
+      "other": [
+        "Featured in Amazonian ecotourism imagery and conservation campaigns",
+        "Murals in Iquitos and Pucallpa",
+        "Local handicrafts and Shipibo embroidery motifs"
+      ]
     }
   },
+
   "research": {
-    "researchers": [],
-    "organizations": [],
-    "ongoing_studies": "None documented"
+    "researchers": [
+      { "name": "Luis Eduardo Luna", "affiliation": "Wasiwaska Research Centre", "contribution": "Ethnographic documentation of Western Amazonian shamanism, including the Chullachaqui, through long collaboration with Pablo Amaringo", "period": "1980s–present" },
+      { "name": "Pablo Amaringo", "affiliation": "Usko-Ayar Amazonian School of Painting", "contribution": "Visual documentation of the Chullachaqui in the iconography of vegetalismo", "period": "1980s–2009" },
+      { "name": "Stephan V. Beyer", "affiliation": "Independent (anthropology)", "contribution": "English-language ethnographic synthesis of mestizo Amazonian shamanism", "period": "2000s" },
+      { "name": "Eduardo Viveiros de Castro", "affiliation": "Museu Nacional, Universidade Federal do Rio de Janeiro", "contribution": "Theoretical framework of Amerindian perspectivism that contextualises forest-spirit beliefs", "period": "1990s–present" }
+    ],
+    "organizations": [
+      { "name": "Instituto de Investigaciones de la Amazonía Peruana (IIAP)", "url": "https://www.iiap.gob.pe", "focus": "Peruvian Amazonian research, including ethnobotany and folklore" },
+      { "name": "Wasiwaska Research Centre", "url": "https://www.wasiwaska.org", "focus": "Research and publication on Amazonian shamanism" }
+    ],
+    "ongoing_studies": "Continued ethnographic documentation in Peruvian, Ecuadorian, and Brazilian Amazonia, alongside folkloric studies and educational materials in regional Spanish-language and indigenous-language curricula."
   },
-  "sources": []
+
+  "sources": [
+    { "id": "wikipedia-chullachaki", "type": "website", "title": "Chullachaki", "publication": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Chullachaki", "accessed": "2026-05-07" },
+    { "id": "luna-amaringo-1991", "type": "book", "title": "Ayahuasca Visions: The Religious Iconography of a Peruvian Shaman", "authors": ["Luis Eduardo Luna", "Pablo Amaringo"], "publication": "North Atlantic Books", "date": "1991", "isbn": "978-1556430305" },
+    { "id": "beyer-2009", "type": "book", "title": "Singing to the Plants: A Guide to Mestizo Shamanism in the Upper Amazon", "authors": ["Stephan V. Beyer"], "publication": "University of New Mexico Press", "date": "2009", "isbn": "978-0826347299" },
+    { "id": "perujungletrips", "type": "website", "title": "The Legend of the Chullachaqui: Myths of the Peruvian Amazon", "publication": "Peru Jungle Trips", "url": "https://perujungletrips.com/the-legend-of-the-chullachaqui-myths-of-the-peruvian-amazon/", "accessed": "2026-05-07" },
+    { "id": "kuoda-chullachaqui", "type": "website", "title": "Spooky Peru: The Myth of the Chullachaqui in the Amazon", "publication": "Kuoda Travel", "url": "https://www.kuodatravel.com/blog/spooky-peru-the-myth-of-the-chullachaqui-in-the-amazon/", "accessed": "2026-05-07" }
+  ]
 }
